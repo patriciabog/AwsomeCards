@@ -1,45 +1,45 @@
 ![Imagen del proyecto](./src/images/logo-awesome-profile-cards.svg)
 
-## Descripción del proyecto.:book:
+## Description:book:
 
-Este repositorio contiene el proyecto del grupo 3 correspondiente al módulo 2 de la promo S del BootCamp Web Programming de Adalab.
+This repository contains the group 3 project corresponding to module 2 of promotion S of Adalab's BootCamp Web Programming.
 
-En este proyecto se pedía la realización de una aplicación web interactiva que permitiera crear una tarjeta de visita personalizada.
+In this project, the creation of an interactive web application that would allow the creation of a personalized business card was requested.
 
-En la página web se podrán introducir datos personales y profesionales, y obtener una vista maquetada con la información.
+On the website you can enter personal and professional data, and obtain a layout view with the information.
 
-El proyecto debe contar con dos páginas:
+The project must have two pages:
 
-- Una página landing de bienvenida.
-- Una página con la aplicación de crear tarjetas.
+A welcome landing page.
+A page with the application to create cards.
 
-## Especificaciones::bookmark_tabs:
+## Specifications::bookmark_tabs:
 
-- Uso avanzado de formularios HTML.
-- Maquetación usando CSS avanzado (flex y grid).
-- Uso de mediaqueries para que el diseño sea adpatable al dispositivo usando la estrategia mobile first.
-- Gestión de eventos en el navegador.
-- Acceso y envío de datos a un servidor.
-- Almacenamiento en local usando LocalStorage.
-- Uso de git para el control de versiones del proyecto.
-- Publicación del resultado en Internet usando GitHub Pages.
+- Advanced use of HTML forms.
+- Layout using advanced CSS (flex and grid).
+- Use of mediaqueries so that the design is adaptable to the device using the mobile first strategy.
+- Event management in the browser.
+- Access and sending data to a server.
+- Local storage using LocalStorage.
+- Use of git for version control of the project.
+- Publication of the result on the Internet using GitHub Pages.
 
-## Demostración de funciones y aplicaciones.:pushpin:
+## Demo.:pushpin:
 
-La aplicación funciona siguiendo estos pasos:
+The application works by following these steps:
 
-1. Permitir al usuario elegir el estilo de la tarjeta, eligiendo entre diferentes paletas de colores.
+1. Allow the user to choose the style of the card, choosing between different color palettes.
 
-2. Permitir al usuario que se modifique automáticamente la información que aparece en la tarjeta de visita, mediante la introducción de los datos en el formulario, permitiendo una previsualización del resultado final.
+2. Allow the user to automatically modify the information that appears on the business card, by entering the data in the form, allowing a preview of the final result.
 
-3. Permitir que el usuario pueda crear una web con su tarjeta de visita y compartirla por Twitter.
+3. Allow the user to create a website with his business card and share it on Twitter.
 
-## Tecnologías utilizadas.:hammer_and_wrench:
+## Made with:hammer_and_wrench:
 
-- La maqutación del proyecto se ha realizado usando `HTML, CSS y SCSS`.
+- The layout of the project has been done using `HTML, CSS and SCSS`.
 
-- Se ha empleado `JavaScript` para la gestión de eventos en el navegador.
+- `JavaScript` has been used to manage events in the browser.
 
-- `GitHub` ha ayudado con el control de versiones del proyecto.
+- `GitHub` has helped with version control of the project.
 
-- En `GitHub Pages` está publicado el resultado de este proyecto.
+- In `GitHub Pages` the result of this project is published.
