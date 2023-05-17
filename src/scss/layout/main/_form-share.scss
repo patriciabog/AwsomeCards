@@ -1,0 +1,126 @@
+.main-card__form--share {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding-top: 1.3rem;
+
+  &--legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: solid 1px $white-three;
+    width: 100%;
+    cursor: pointer;
+    padding-bottom: 1rem;
+
+    .fa-share-nodes {
+      color: $dull-orange;
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+
+    &--title {
+      color: $gunmetal;
+      font-family: $font-OpenSans;
+      font-weight: bold;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      padding-bottom: 3rem;
+      margin-top: 1rem;
+      padding-left: 1rem;
+      text-align: left;
+      flex-grow: 2;
+    }
+    .fa-chevron-up {
+      color: $gunmetal;
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+  }
+
+  &--button{
+    display: flex;
+    flex-direction: row;
+    background-color: $dull-orange;
+    color: $white-two;
+    border-radius: 12px;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-right: 2.4rem;
+    padding-left: 1.7rem;
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+
+    .fa-address-card{
+        font-size: 2.2rem;
+    }
+
+    &--title{
+        font-family: $font-OpenSans;
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-left: 1rem;
+        cursor: pointer;
+        border: 0px solid transparent;
+        background-color: inherit;
+        color: inherit;
+    }
+  }
+    &--twitter {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      border-top: solid 1px $white-three;
+      border-bottom: solid 1px $white-three;
+
+
+      &--text {
+        font-family: $font-OpenSans;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $gunmetal;
+        margin-top: 2rem;
+
+      }
+      &--link{
+        font-family: $font-OpenSans;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: $dull-orange;
+        font-size: 1.2rem;
+        
+      }
+      &--button{
+        background-color: #00a0f5;
+        color: white;
+        align-items: center;
+        border: 0px solid transparent;
+        border-radius: 3px;
+        width: 18rem;
+        height: 3rem;
+        margin-bottom: 2rem;
+
+        &--linkTwitter{
+          color: white;
+          font-family: $font-OpenSans;
+          font-size: 1.4rem;
+          text-decoration: none;
+          gap: 1rem;
+        }
+      }
+    .fa-brands{
+      color: white;
+    }
+    }
+}
+
+.selected {
+  background-color: #d5d5d5;
+}

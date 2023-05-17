@@ -1,0 +1,22 @@
+@import 'core/reset';
+@import 'core/variables';
+
+@import 'layout/header/header-card';
+@import 'layout/main/main-card';
+@import 'layout/footer';
+
+html{
+    font-size: 62.5%;
+}
+
+.main-card {
+    background-image: linear-gradient(to bottom, $white-four, $white-two);
+
+    @media all and (min-width: 768px) {
+    min-height: 70vh;
+    padding: 2rem 3rem 2rem 0;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    }
+}

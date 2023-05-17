@@ -1,0 +1,14 @@
+@import 'core/reset';
+@import 'core/variables';
+
+@import 'layout/header/header-landing';
+@import 'layout/main/main-landing';
+@import 'layout/footer';
+
+html{
+    font-size: 62.5%;
+}
+
+.footer {
+    height: 15vh;
+}

@@ -1,0 +1,105 @@
+.main-landing{
+    background-color: $white-four;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .card-creation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    &__title::first-letter{
+        text-transform: uppercase;
+    }
+    &__title{
+        color: $dull-orange;
+        font-family:$font-Merriweather;
+        font-size: 1.92rem;
+        font-weight: 900;
+        line-height: normal;
+            @media all and (min-width: 768px) {
+                font-size: 2.4rem;
+                padding-top: 3.1rem;
+        }
+    }
+    &__paragraph::first-letter{
+        text-transform: uppercase;
+    }
+    &__paragraph{
+        width: 26.5rem;
+        height: 3.84rem;
+        color: $dark-green-blue;
+        font-family:$font-OpenSans;
+        font-size: 1.28rem;
+        line-height: normal;
+        text-align: center;
+            @media all and (min-width: 768px) {
+                width: 33rem;
+                height: 4.8rem;
+                font-size: 1.6rem;
+                padding-bottom: 2.7rem;
+    }
+}
+
+    &__div{
+        width: 26.8rem;
+        height: 7.38rem;
+        border: solid 0.16rem $dull-orange;
+        // opacity: 0.21;
+        border-radius: 0.4rem;
+        margin: 1.78rem 0.2rem 0 0.2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+            @media all and (min-width: 768px) {
+                width: 32.5rem;
+                height: 8.6rem;
+                margin-bottom: 8rem;
+    }
+        &--item{
+            width: 6rem;
+            height: 4.8rem;
+            font-size: 1.28rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            color: $gunmetal;
+            font-family: $font-OpenSans;
+                @media all and (min-width: 768px) {
+                    width: 7.5rem;
+                    height: 6.1rem;
+                    font-size: 1.6rem;
+                    justify-content: center;
+                    align-items: center;
+            }
+        }
+        }
+
+    &__button{
+        padding: 1.2rem 2.2rem;
+        margin: 3.8rem 0 3rem 0;
+        background-color:$dirty-blue;
+        border: solid $dirty-blue;
+        border-radius: 2.1rem;
+        text-transform: uppercase;
+        color:$white-two;
+        font-family:$font-OpenSans;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+
+.fa-object-ungroup, .fa-keyboard, .fa-share-nodes{
+            color: $dull-orange;
+            font-size: 2.24rem;
+            width: 6rem;
+}
