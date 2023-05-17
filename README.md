@@ -2,7 +2,7 @@
 
 ## Description:book:
 
-This repository contains the Team 3 project.
+This repository contains a team project.
 
 In this project, the creation of an interactive web application that would allow the creation of a personalized business card was requested.
 
