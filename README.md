@@ -2,7 +2,7 @@
 
 ## Description:book:
 
-This repository contains the group 3 project corresponding to module 2 of promotion S of Adalab's BootCamp Web Programming.
+This repository contains the Team 3 project.
 
 In this project, the creation of an interactive web application that would allow the creation of a personalized business card was requested.
 
