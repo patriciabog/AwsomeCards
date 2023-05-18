@@ -128,7 +128,7 @@ table {
           align-items: center; } }
   .card-creation__button {
     padding: 1.2rem 2.2rem;
-    margin: 3.8rem 0 3rem 0;
+    margin: 5rem 0 3rem 0;
     background-color: #438792;
     border: solid #438792;
     border-radius: 2.1rem;
@@ -139,6 +139,9 @@ table {
     font-size: 1.6rem;
     font-weight: 600;
     cursor: pointer; }
+    @media all and (min-width: 768px) {
+      .card-creation__button {
+        margin: 0rem 0 3rem 0; } }
 
 .fa-object-ungroup, .fa-keyboard, .fa-share-nodes {
   color: #e17334;

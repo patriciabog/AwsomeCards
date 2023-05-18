@@ -83,7 +83,7 @@
 
     &__button{
         padding: 1.2rem 2.2rem;
-        margin: 3.8rem 0 3rem 0;
+        margin: 5rem 0 3rem 0;
         background-color:$dirty-blue;
         border: solid $dirty-blue;
         border-radius: 2.1rem;
@@ -94,6 +94,9 @@
         font-size: 1.6rem;
         font-weight: 600;
         cursor: pointer;
+        @media all and (min-width: 768px) {
+            margin: 0rem 0 3rem 0;
+        }
     }
 }
 
